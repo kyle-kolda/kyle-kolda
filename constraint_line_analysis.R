@@ -1,5 +1,4 @@
 ### --- Habor Seal Analysis --- ###
-setwd("C:/Users/kpkolda/Desktop/columbus_analysis/Harbor Seals")
 library(tidyverse)
 library(quantreg)
 library(readxl)
@@ -523,3 +522,4 @@ for (i in 1:nrow(previous_results)){
 }
 
 write_csv(analysis_results, file = "violations.csv")
+

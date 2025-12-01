@@ -1,5 +1,4 @@
 #### --- Steller Sea Lion Constraint Line Analysis --- ####
-setwd("C:/Users/kpkolda/Desktop/columbus_analysis/Steller Sea Lions")
 library(tidyverse)
 library(readxl)
 
@@ -414,3 +413,4 @@ for (file in file_list){
   
   dev.off()
 }
+
